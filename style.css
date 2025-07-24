@@ -18,6 +18,14 @@ ul {
   list-style: none;
 }
 
+div {
+  border: 1px solid red;
+}
+
+h1 {
+  margin: 1rem;
+}
+
 div.title {
   text-align: center;
   font-size: 36px;
@@ -30,10 +38,6 @@ div.title {
   font-size: 24px;
 }
 
-div {
-  border: 1px solid red;
-}
-
 .recipe-list {
   text-align: center;
 }
@@ -44,7 +48,7 @@ div {
   display: inline-block;
   width: 300px;
   height: auto;
-  margin: 0 20px;
+  margin: 0 20px 30px;
 }
 
 .recipe {
@@ -54,4 +58,9 @@ div {
 
 .recipe-image {
   width: 300px;
+}
+
+.img-wrap {
+  width: 300px;
+  height: 200px;
 }

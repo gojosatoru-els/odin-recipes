@@ -19,10 +19,12 @@ ul {
     list-style: none;
 }
 
-ul li {
+ul .recipe {
     display: inline;
 }
 
 div.title {
     text-align: center;
 }
+
+

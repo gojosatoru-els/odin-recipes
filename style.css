@@ -35,6 +35,8 @@ div {
   border: 1px solid red;
 }
 
-.lasagna {
+.lasagna,
+.sinigang,
+.tinola {
   text-align: center;
 }

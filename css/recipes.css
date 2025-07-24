@@ -18,7 +18,7 @@ body {
   float: left;
   text-decoration: none;
   background-color: coral;
-  border: coral;
+  border: 3px solid coral;
   color: black;
   text-align: center;
   display: block;

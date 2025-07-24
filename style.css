@@ -25,6 +25,12 @@ ul .recipe {
 
 div.title {
     text-align: center;
+    font-size: 36px;
 }
 
-
+.recipe-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}

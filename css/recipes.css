@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+div {
+  border: 1px solid red;
+}
+
+.home-link {
+  text-decoration: none;
+  color: black;
+}
+
+.home-btn {
+  float: left;
+  border: 3px solid coral;
+  background-color: coral;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.home-btn:hover {
+  background-color: #fff;
+}

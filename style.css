@@ -34,12 +34,22 @@ div {
   border: 1px solid red;
 }
 
+.recipe-list {
+  text-align: center;
+}
+
 .lasagna,
 .sinigang,
 .tinola {
   display: inline-block;
   width: 300px;
   height: auto;
+  margin: 0 20px;
+}
+
+.recipe {
+  text-align: left;
+  padding: 1em 0;
 }
 
 .recipe-image {

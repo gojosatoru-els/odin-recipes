@@ -19,20 +19,37 @@ div {
 }
 
 .home-link {
-  text-decoration: none;
-  color: black;
-}
-
-.home-btn {
   float: left;
-  border: 3px solid coral;
+  text-decoration: none;
   background-color: coral;
+  border: coral;
+  color: black;
+  text-align: center;
+  display: block;
   width: 100px;
   padding: 10px;
-  text-align: center;
   transition-duration: 0.3s;
 }
 
-.home-btn:hover {
+.home-link:hover {
   background-color: #fff;
+}
+
+.recipe {
+  width: 500px;
+  margin: 0 auto;
+  border: 5px solid coral;
+}
+
+.img-wrap {
+  text-align: center;
+}
+
+.recipe-img {
+  width: 100%;
+}
+
+.recipe-content {
+  padding: 0 2em 1.5em 1em;
+  text-align: justify;
 }

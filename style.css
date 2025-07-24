@@ -12,15 +12,11 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
   background-color: #fff;
-  outline: 1px solid red;
+  border: 1px solid red;
 }
 
 ul {
     list-style: none;
-}
-
-ul .recipe {
-    display: inline;
 }
 
 div.title {
@@ -33,4 +29,12 @@ div.title {
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.lasagna {
+    text-align: center;
 }
